@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRIME009 LITE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background: black;
+      color: white;
+      font-family: 'Orbitron', sans-serif;
+      overflow-x: hidden;
+    }
+    .glow {
+      color: #ff0000;
+      text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #e60033;
+    }
+    .container {
+      text-align: center;
+      padding: 100px 20px 40px;
+    }
+    .card {
+      background: rgba(255, 0, 0, 0.05);
+      border: 1px solid #ff0000;
+      border-radius: 12px;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 600px;
+      animation: flicker 3s infinite alternate;
+    }
+    @keyframes flicker {
+      0% { box-shadow: 0 0 10px #ff0000; }
+      100% { box-shadow: 0 0 20px #ff0000; }
+    }
+    .btn {
+      background: #ff0000;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      border: none;
+      font-size: 18px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 20px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background: #e60033;
+    }
+    footer {
+      margin-top: 60px;
+      font-size: 14px;
+      color: #777;
+    }
+    .logo {
+      width: 180px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="PRIME009 Logo" class="logo">
+    <h1 class="glow">PRIME009 LITE</h1>
+    <div class="card">
+      <p>🔥 FPS Boost up to 1000+</p>
+      <p>⚙️ Best optimization ever </p>
+      <p>🎯 Better Headshots | Secret Optimizations </p>
+      <p>🎮 Click below to join our exclusive Discord server!</p>
+<a href="https://discord.gg/AXFWmvDa" target="_blank" class="btn">GET ACCESS</a>
+    </div>
+    <footer>
+      &copy; 2025 PRIME009. All rights reserved.
+    </footer>
+  </div>
+</body>
+</html>
